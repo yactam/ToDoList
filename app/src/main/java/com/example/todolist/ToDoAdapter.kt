@@ -1,10 +1,8 @@
 package com.example.todolist
 
 import android.view.LayoutInflater
-import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.example.todolist.ToDo.*
 import com.example.todolist.databinding.ItemTodoBinding
 
 class ToDoAdapter(var todos: List<ToDo>): RecyclerView.Adapter<ToDoAdapter.ToDoViewHolder>() {
